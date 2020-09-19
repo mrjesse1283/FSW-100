@@ -1,0 +1,50 @@
+html {
+    background-color: lightblue;
+}
+nav {
+    position: fixed;
+    background-color: white;
+    left: 25px;
+    height: 20px;
+    width: 1000px;
+    text-align: center;
+}
+.image-1 {
+    position: relative;
+    bottom: 5px;
+    float: left;
+    margin: 15px;
+}
+.image-2 {
+    position: relative;
+    float: left;
+    margin: 15px;
+}
+.image-3 {
+    position:relative;
+    float: left;
+    margin:15px;
+}
+.blogposts1 {
+    background-color: orange;
+    margin: 15px;
+    height: 200px;
+}
+.blogpost2 {
+    background-color: white;
+    margin: 15px;
+    height: 200px;
+}
+.blogpost3 {
+    background-color: rgb(255,0,0);
+    margin: 15px;
+    height: 225px;
+}
+div h3, h5, h6{
+    position: relative;
+    top: 20px;
+}
+.filler {
+    position: relative;
+    height: 50px;
+}
