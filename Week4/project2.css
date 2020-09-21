@@ -1,20 +1,71 @@
 html {
-    background-color: tan;
     background-image: url(https://images.unsplash.com/photo-1447933601403-0c6688de566e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=956&q=80);
-    position: relative; 
-    }
+    background-attachment: fixed;
+
+}
 nav {
     position: relative;
     text-align: center;
     background-color: tan;
     border: solid white;
 }
+.nav {
+    color: black;
+}
 .filler1 {
     position: relative;
     margin: 25px;
 }
 .image1 {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%
+    position: relative;
+    left: 400px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
 }
+.main {
+    position: relative;
+    top: 15px;
+    color: tan;
+    font-family: url(https://fonts.google.com/specimen/Ranchers);
+    font-size: 20px;
+    background-color: rgba(26, 16, 3, 0.6);
+    padding: 20px;
+    
+    
+}
+table, th, td, tr, h2 {
+    border: 2px solid black;
+    background-color: rgba(238, 177, 96, 0.6);
+}
+table {
+    position: relative;
+    left: 270px;
+    bottom: 85px;
+    font-size: 20px;
+    width: 50%;
+
+}
+.canflag {
+    position: relative;
+    right: 100px;
+    float: right;
+}
+.usaflag {
+    position: relative;
+    left: 100px;
+}
+h2 {
+    font-size: 25px;
+    text-align: center;
+}
+ul {
+    position: relative;
+    left:80px;
+}
+footer {
+    color: black;
+    background-color: white;
+}
+    
+    
