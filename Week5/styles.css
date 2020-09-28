@@ -1,0 +1,142 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+nav > div {
+    background-color: #F5C6D6;
+    height: 150px;
+    border: 2px solid white;
+    margin: 5px;
+}
+#flex1 {
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    margin: 5px; 
+}
+#flex1 > div:nth-child(1){
+    background-color: #EE2E84;
+    width: 24%;
+
+}
+#flex1 > div:nth-child(2){
+    background-color: #EE2E84;
+    width: 24%;
+}
+#flex1 > div:nth-child(3){
+    background-color: #EE2E84;
+    width: 24%;
+}
+#flex1 > div:nth-child(4){
+    background-color: #EE2E84;
+    width: 24%;
+}
+#flex2 {
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    margin: 5px;
+}
+#flex2 >div:nth-child(1){
+    background-color: #85CFD8;
+    width: 49%;
+    border: 2px solid white;
+}
+#flex2 >div:nth-child(2){
+    background-color: #85CFD8;
+    width: 49%;
+    border: 2px solid white;
+}
+#flex3 {
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    border: 2px solid white;
+    margin: 5px;
+}
+#flex3 > div:nth-child(1){
+    background-color: #8DC63F;
+    width: 74%;
+    border: 2px solid white;
+}
+#flex3 >div:nth-child(2){
+    background-color: #E76E34;
+    width: 24%;
+    border: 2px solid white;
+}
+
+
+    
+@media only screen and (max-width: 768px){
+    nav > div {
+        background-color: #F5C6D6;
+        padding: 5px;
+        border: 5px ;
+        height:50px;
+        width: auto;
+    }
+    #flex1{
+        display: contents;
+        padding: 5px;
+        border: 5px ;
+    }
+    #flex1 > div:nth-child(1){
+        background-color: #EE2E84;
+        height: 50px;
+        width: auto;
+        border: 5px solid white;
+    }
+    #flex1 > div:nth-child(2){
+        background-color: #EE2E84;
+        height: 50px;
+        width: auto;
+        border: 5px solid white;
+    }
+    #flex1 > div:nth-child(3){
+        background-color: #EE2E84;
+        height: 50px;
+        width: auto;
+        border: 5px solid white;
+    }
+    #flex1 > div:nth-child(4){
+        background-color: #EE2E84;
+        height: 50px;
+        width: auto;
+        border: 5px solid white;
+    }
+    #flex2 {
+        display: contents;
+        padding: 5px;
+        border: 5px;
+    }
+    #flex2 > div:nth-child(1){
+        background-color: #85CFD8;
+        height: 50px;
+        width: auto;
+        border: 5px solid white;
+    }
+    #flex2 > div:nth-child(2){
+        background-color: #85CFD8;
+        height: 50px;
+        width: auto;
+        border: 5px solid white;
+    }
+    #flex3 {
+        display: contents;
+        padding: 5px;
+        border: 5px;
+    }
+    #flex3 > div:nth-child(1){
+        background-color: #8DC63F;
+        height: 50px;
+        width: auto;
+        border: 5px solid white;
+    }
+    #flex3 > div:nth-child(2){
+        background-color: #E76E34;
+        height: 50px;
+        width: auto;
+        border: 5px solid white;
+    }
+
+}

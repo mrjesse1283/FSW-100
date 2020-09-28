@@ -1,0 +1,130 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+#grid1 {
+    display: grid;
+    grid-gap: 7px;
+    font-size: 25px;
+    grid-template-columns: 1fr;
+    margin: 5px;
+}
+#header {
+    background-color: grey;
+    color: white;
+    border-radius: 3px;
+}
+#side1 {
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+}
+#main {
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+}
+#side2 {
+    background-color: darkgrey;
+    color: white;
+    border-radius: 3px;
+}
+#footer {
+    background-color: grey;
+    color: white;
+    border-radius: 3px;
+}
+
+@media only screen and (min-width: 600px){
+    
+    #grid1 {
+        display: grid;
+        grid-gap: 8px;
+        font-size: 30px;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(4, 100px);
+    
+      
+    }
+    #header {
+        background-color: grey;
+        color: white;
+        margin: 5px;
+        grid-column: 1 / 5;
+        border-radius: 3px;
+    }
+    #side1 {
+        background-color: black;
+        color: white;
+        margin: 5px;
+        grid-column: 1 / 2;
+        border-radius: 3px;
+    }
+    #main {
+        background-color: black;
+        color: white;
+        margin: 5px;
+        grid-column: 2 / 5;
+        border-radius: 3px;
+    }
+    #side2 {
+        background-color: darkgrey;
+        color: white;
+        margin: 5px;
+        grid-column: 1 / 5;
+        border-radius: 3px;
+    }
+    #footer {
+        background-color: grey;
+        color: white;
+        margin: 5px;
+        grid-column: 1 / 5;
+        border-radius: 3px;
+    }
+}
+@media only screen and (min-width: 1000px) {
+    
+    #grid1 {
+        display: grid;
+        grid-gap: 10px;
+        font-size: 35px;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(3, 100px);
+      
+    }
+    #header {
+        background-color: grey;
+        color: white;
+        margin: 5px;
+        grid-column: 1 / 5;
+        border-radius: 3px;
+    }
+    #side1 {
+        background-color: black;
+        color: white;
+        margin: 5px;
+        grid-column: 1 / 2;
+        border-radius: 3px;
+    }
+    #main {
+        background-color: black;
+        color: white;
+        margin: 5px;
+        grid-column: 2 / 4;
+        border-radius: 3px;
+    }
+    #side2 {
+        background-color: darkgrey;
+        color: white;
+        margin: 5px;
+        grid-column: 4 / 5;
+        border-radius: 3px;
+    }
+    #footer {
+        background-color: grey;
+        color: white;
+        margin: 5px;
+        grid-column: 1 / 5;
+        border-radius: 3px;
+    }
+}
