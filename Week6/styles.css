@@ -1,0 +1,93 @@
+#box1 {
+    width: 300px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: red;
+    border-radius: 3%;
+    transition-duration: 3s;
+}
+#box1:hover {
+    background-color: blue;
+    width: 500px;
+}
+
+#box2 {
+    width: 300px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: orange;
+    border-radius: 3%;
+    transition-duration: 2s;
+}
+#box2:hover {
+    background-color: #22b24d;
+    border: 5px solid red;
+}
+
+#box3 {
+    width: 300px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: yellow;
+    border-radius: 3%;
+    transition-duration: 5;
+} 
+
+#box3:hover {
+    background-color: white;
+    border: 5px ridge black;
+    width: 700px;
+    height: 150px;
+}
+
+#box4 {
+    width: 300px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: green;
+    border-radius: 3%;
+}
+#box4:hover {
+    background-color: orange;
+    width: 100px;
+    height: 50px;
+    border: 5px solid black;
+}
+
+#box5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: white;
+    width: 300px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: blue;
+    border-radius: 3%;
+    transition-duration: 3s;
+}
+#box5:hover {
+    font-size: 0;
+    height: 200;
+    width: 200;
+    border-radius: 50%;
+}
+#box5:hover::after {
+    content: attr(data-hover);
+    font-size: 30px;
+}
+
+#box6 {
+    width: 300px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: purple;
+    border-radius: 3%;
+    transition-delay: 2s;
+}
+#box6:hover {
+    background-color: rgba(132, 0, 255, 0.1);
+    width: 1000px;
+    height: 300px;
+}
