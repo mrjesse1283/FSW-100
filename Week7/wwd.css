@@ -1,0 +1,126 @@
+*   {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 7px;
+    background-color: teal;
+}
+
+header h1 {
+    background-color: whitesmoke;
+    text-align: center;
+    height: 50px;
+    padding-top: 10px;
+}
+
+/* section1 */
+#section1 {
+    background-color: rgba(128, 128, 128, 0.7);
+    border-radius: 4%;
+}
+#section1 h1  {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'indie flower';
+}
+#section1 img {
+    width: 93%;
+    height: 300px;
+    padding: 20px;
+    border-radius: 8%;
+}
+#section1 p {
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 10px;
+    font-family: 'indie flower';
+}
+
+/* border */
+.border {
+    border-bottom: solid black 2px;
+    margin: 0px 15px;
+}
+
+/* section2 */
+#section2 {
+    background-color: rgba(128, 128, 128, 0.7);
+    border-radius: 4%;
+}
+#section2 h1  {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'indie flower';
+}
+#section2 img {
+    width: 93%;
+    height: 300px;
+    padding: 20px;
+    border-radius: 7%;
+}
+#section2 p {
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 10px;
+    font-family: 'indie flower';
+}
+footer h1 a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    padding: 2px;
+    font-size: 20px;
+}
+/* tablet */
+@media only screen and (min-width: 650px){
+    
+    body {
+        display: grid;
+        grid-template-columns: repeat(1, 98vw);
+        grid-template-rows: repeat minmax(50px,auto);
+        margin: 0%;
+        background-color: teal;
+    }
+    main {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    #section1 {
+        display: grid;   
+    }
+    #section1 #img {
+        grid-row: 3 / 4;
+        margin-top: 30px;
+        margin-bottom: 15x;
+        padding-top: 25px;
+        padding-right: 20px;
+    }
+
+    #section1 div p {
+        padding-bottom: 20px;
+    }
+    #section2 {
+        display: grid;   
+    }
+    #section2 #img {
+        grid-row: 3 / 4;
+        margin-bottom: 25px;
+        margin-right: 10px;
+        padding-top: 0px;
+    }
+    #section2 #p {
+        padding-bottom: 30px;
+    }
+
+
+    }
+
+    
+    

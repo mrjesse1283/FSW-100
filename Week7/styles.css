@@ -1,0 +1,148 @@
+*   {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(https://www.atrafloor.com/app/uploads/2017/02/sprinkles-kids-pink-plain.jpg);
+    background-attachment: fixed;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    /* grid-template-rows: 50px 200px auto 70px; */
+}
+/* nav */
+nav {
+    background-color: pink;
+    height: 50px;
+    width: 100%;
+    grid-column: 1 /-1;
+}
+#nav {
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    padding: 10px;
+    width: 100%;
+}
+nav ul li {
+    float: right;
+    list-style: none;
+    margin: 0% 10px;
+    padding: 5px;
+    background-color: rgba(240, 9, 9, 0.212);
+    border-radius: 6%;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+/* header */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: red;
+    font-family: 'Indie Flower';
+    font-size: 35px;
+    padding: 20px;
+}
+/* main */
+#main {
+    background-color: pink;
+    border-radius: 3%;
+}
+main div h3 u a {
+    color: red;
+}
+main div p {
+    font-size: 20px;
+    text-align: center;
+}
+h3 {
+    font-size: 25px;
+    font-family: 'Indie Flower';
+    text-align: center;
+    grid-column: 1 / -1;
+    background-color: white;
+    color: red;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 6%;
+}
+img {
+    width: 100%;
+    border-radius: 5%;
+}
+/* footer */
+footer {
+    background-color: rgba(255, 166, 0, 0.356);
+    text-align: center;
+    border-radius:6%;
+    
+
+}
+/* tablet */
+@media only screen and (min-width: 700px){
+
+body {
+    display: grid;
+    /* grid-template-columns: repeat(6, 1fr); */
+} 
+  /*nav  */
+nav {
+    background-color: none;
+    display: flex;   
+} 
+#nav {
+    background-color: transparent;
+    grid-column: 1 / -1;
+    grid-row: 2 / 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li {
+    background-color: transparent;
+    display: flex;
+    
+    font-size: 20px;
+}
+
+li {
+    color: red;
+    font-size: 22px;
+    font-family: 'Indie Flower';
+}
+/* header */
+#header {
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+  
+}
+#main {
+    background-color: none;
+    display: flex;
+    height: auto; 
+    /* width: 100vw; */
+    
+}
+div #img1 {  
+    height: auto;
+    float: left; 
+} 
+img {
+    max-height: 200px;
+    max-width: 100vw;
+    padding: 2px;
+}
+div #img2 {
+    height: auto;
+    float: left;
+} 
+footer {
+    grid-column: 1 / -1;
+    }
+
+}
